@@ -5,18 +5,13 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="26a28662-956f-444f-9485-320a7e316e11" name="Changes" comment="">
-      <change afterPath="$PROJECT_DIR$/.gitignore" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/encodings.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/misc.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/vcs.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/pom.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/org/algorithms/PalindromeNumber.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/uiDesigner.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/org/algorithms/LongestCommonPrefix.java" afterDir="false" />
       <change afterPath="$PROJECT_DIR$/src/main/java/org/algorithms/RomanToInteger.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/org/algorithms/TwoSum.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/test/java/org/algorithms/PalindromeNumberTest.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/test/java/org/algorithms/LongestCommonPrefixTest.java" afterDir="false" />
       <change afterPath="$PROJECT_DIR$/src/test/java/org/algorithms/RomanToIntegerTest.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/test/java/org/algorithms/TwoSumTest.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/org/algorithms/PalindromeNumber.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/org/algorithms/PalindromeNumber.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -48,7 +43,7 @@
     "RunOnceActivity.ShowReadmeOnStart": "true",
     "SHARE_PROJECT_CONFIGURATION_FILES": "true",
     "WebServerToolWindowFactoryState": "false",
-    "git-widget-placeholder": "master",
+    "git-widget-placeholder": "main",
     "last_opened_file_path": "/home/brendon/Documents/Projects/Algorithms/pom.xml",
     "node.js.detected.package.eslint": "true",
     "node.js.detected.package.tslint": "true",
@@ -57,7 +52,20 @@
     "vue.rearranger.settings.migration": "true"
   }
 }]]></component>
-  <component name="RunManager" selected="JUnit.RomanToIntegerTest">
+  <component name="RunManager" selected="JUnit.LongestCommonPrefixTest">
+    <configuration name="LongestCommonPrefix" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="org.algorithms.LongestCommonPrefix" />
+      <module name="Algorithms" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="org.algorithms.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
     <configuration name="main" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="org.algorithms.main" />
       <module name="Algorithms" />
@@ -67,6 +75,21 @@
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="LongestCommonPrefixTest" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <module name="Algorithms" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="org.algorithms.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="PACKAGE_NAME" value="org.algorithms" />
+      <option name="MAIN_CLASS_NAME" value="org.algorithms.LongestCommonPrefixTest" />
+      <option name="TEST_OBJECT" value="class" />
       <method v="2">
         <option name="Make" enabled="true" />
       </method>
@@ -101,27 +124,13 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="TwoSumTest" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
-      <module name="Algorithms" />
-      <extension name="coverage">
-        <pattern>
-          <option name="PATTERN" value="org.algorithms.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
-      <option name="PACKAGE_NAME" value="org.algorithms" />
-      <option name="MAIN_CLASS_NAME" value="org.algorithms.TwoSumTest" />
-      <option name="TEST_OBJECT" value="class" />
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="JUnit.LongestCommonPrefixTest" />
+        <item itemvalue="Application.LongestCommonPrefix" />
         <item itemvalue="JUnit.RomanToIntegerTest" />
         <item itemvalue="Application.main" />
         <item itemvalue="JUnit.PalindromeNumberTest" />
-        <item itemvalue="JUnit.TwoSumTest" />
       </list>
     </recent_temporary>
   </component>
@@ -136,6 +145,7 @@
       <workItem from="1698292703791" duration="3942000" />
       <workItem from="1698316886527" duration="31000" />
       <workItem from="1698332940661" duration="3658000" />
+      <workItem from="1698341310966" duration="8275000" />
     </task>
     <servers />
   </component>

@@ -9,8 +9,6 @@ package org.algorithms;
 
 public class PalindromeNumber {
     public Boolean isPalindrome(int x) {
-        String numberStr = Integer.toString(x);
-        String reverseNumberStr = new StringBuilder(numberStr).reverse().toString();
-        return numberStr.equals(reverseNumberStr);
+        return String.valueOf(x).contentEquals(new StringBuilder(String.valueOf(x)).reverse());
     }
 }
